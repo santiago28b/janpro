@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vysa</title>
+</head>
+<body>
+    <img  class="janproImg" src="https://media.licdn.com/dms/image/C4E1BAQEmbMsuh1RXoQ/company-background_10000/0/1619050964192/janprosela_cover?e=2147483647&v=beta&t=CwjvDMZxi9t1znZcOj9A6heDcLrBxkZdp63iUtI13VY" alt="">
+    <div class="container">
+               <div class="ordenForm">
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="5a131af4-acbd-4fc5-b47c-d55381f2f71a">
+                    <h3>Orden de productos Janpro</h3>
+                    <input type="hidden" name="subject" value="Nueva orden de productos cuenta Janpro">
+                    <input type="hidden" name="from_name" value="Empleados Janpro">
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" name="name" placeholder="Edmundo Gonzalez" required>
+                    <br>
+                    <label for="fname">Cuenta que limpia:</label><br>
+                    <input type="text" name="cuenta" placeholder="Tamarak" required>
+                    <br>
+                    <label for="fname">Productos:</label><br>
+                    <br>
+                    <textarea name="message" cols="30" rows="10" placeholder="Otros productos que necesita"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+
+                </form>
+               </div>
+    </div>
+</body>
+</html>
